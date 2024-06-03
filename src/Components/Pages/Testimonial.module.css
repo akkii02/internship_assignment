@@ -1,0 +1,127 @@
+.main{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3%;
+}
+.testheading{
+      width: 30%;
+      text-align: center;
+      /* border: 2px solid red; */
+}
+.testheading p{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 20PX;
+      font-weight: 700;
+}
+.testheading h1{
+      font-family: "Clash Display";
+}
+.testmain{
+      width: 100%;
+       display: flex;
+       align-items: center;
+}
+.heading{
+      font-family:"Clash Display" ;
+      width: 50%;
+      font-weight: 500;
+}
+.heading h1{
+      /* border: 2px solid red; */
+      font-size: 22px;
+      width: 100%;
+}
+.iconblock{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+}
+.icons{
+      width: 18px;
+      height: 18px;
+      border-radius: 25px;
+      background-color: rgb(255, 85, 85);
+}
+.leftside{
+      width: 40%;
+      margin-left: 10%;
+      /* border: 2px solid red; */
+}
+.leftside img{
+      width: 80%;
+}
+.rightside{
+      width: 45%;
+      /* border: 2px solid black; */
+      padding: 20px;
+}
+.maincontent{
+      width: 90%;
+      /* border: 2px solid yellow; */
+      margin: 20px 0;
+}
+.maincontent h5{
+      font-family: "Clash Display";
+      font-weight: 400;
+      font-size: 25px;
+      margin: 5px 10px;
+}
+.maincontent p{
+      width: 70%;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      color: gray;
+      font-size: 15px;
+}
+.imgg{
+      display: flex;
+}
+.imgg img{
+      margin: 5px;
+}
+h4{
+      font-family: "Clash Display";
+      font-size: small;
+      font-weight: inherit;
+}
+@media only screen and (max-width: 468px) {
+      .testmain{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+      }
+      .testheading{
+            width: 100%;
+      }
+      .leftside{
+            width: 100%;
+      }
+      .rightside{
+            width: 80%;
+            margin-left: 5%;
+            text-align: center;
+            /* border: 2px solid red; */
+      }
+      .maincontent{
+            width: 100%;
+      }
+      .maincontent h1{
+            width: 100%;
+            text-align: justify;
+
+      }
+      .maincontent p{
+            width: 100%;
+            font-size: 12px;
+            text-align: justify;
+      }
+      .heading{
+            width: 100%;
+      }
+      h4{
+            text-align: left;
+      }
+}

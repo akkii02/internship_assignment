@@ -1,0 +1,135 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.heading {
+  font-family: "Clash Display";
+}
+
+.heading p {
+  color: orange;
+}
+
+.leftside {
+  width: 40%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+.leftside img {
+  width: 100%;
+}
+
+.rightside {
+  width: 45%;
+  padding: 20px;
+  /* border: 2px solid black; */
+}
+
+.maincontent {
+  width: 90%;
+  margin: 20px 0;
+}
+
+.maincontent h5 {
+  font-family: "Clash Display";
+  margin: 5px 10px;
+  /* border: 2px solid red; */
+}
+
+.maincontent p {
+  width: 70%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: gray;
+  font-size: 15px;
+}
+.iconblock{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+}
+.icons{
+      width: 18px;
+      height: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .leftside {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .leftside img {
+    width: 70%;
+    /* border: 2px solid yellow; */
+  }
+
+  .rightside {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .maincontent {
+    width: 100%;
+    text-align: center;
+  }
+
+  .maincontent p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .leftside {
+    width: 80%;
+    text-align: center;
+    /* margin:  0; */
+  }
+
+  .leftside img {
+    width: 100%;
+  }
+
+  .rightside {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .maincontent {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .maincontent h5 {
+    width: 100%;
+    margin: 5px 5px;
+  }
+
+  .maincontent p {
+    width: 90%;
+    font-size: 14px;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,60 @@
+.navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: 'Clash Display';
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 10px;
+    font-family: "Clash Display";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+li:hover {
+    color: red;
+}
+
+.btn {
+    padding: 8px 18px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 468px) {
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-bottom: 10px;
+    }
+    .btn{
+        display: none;
+    }
+    li{
+        font-size: 10px;
+    }
+}

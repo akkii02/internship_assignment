@@ -1,0 +1,70 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.headingleft {
+  font-family: "Clash Display";
+}
+
+.headingleft p {
+  font-weight: bold;
+  color: #ff5555;
+}
+
+.headingleft h1 {
+  width: 50%;
+}
+
+.headright img {
+  max-width: 100%;
+  height: auto;
+}
+
+.maincontent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 0;
+  font-family: "Clash Display";
+}
+
+.leftside, .rightside {
+  width: 48%; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.leftside p, .rightside p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+      .heading{
+            width: 80%;
+            margin-left: 10%;
+            display: flex;
+            flex-direction: column;
+      }
+      .heading h1{
+            width: 100%;
+            font-size: 40px;
+      }
+  .leftside, .rightside {
+    width: 100%; 
+    flex-direction: column-reverse;
+  }
+}
